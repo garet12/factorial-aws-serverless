@@ -141,7 +141,7 @@ By default, this command writes built artifacts to `.aws-sam/build` folder.
 Terraform is an alternative to AWS-SAM and Cloudformation. To deploy with Terraform use the following commands:
 ```bash
 terraform init
-terraform apply
+terraform apply -var account_id="<your accountid>"
 ```
 ## SAM and AWS CLI commands
 
